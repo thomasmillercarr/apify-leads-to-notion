@@ -1,0 +1,7 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+# scraped lead data contains personal info, never commit it
+*.csv
+!examples/sample_leads.csv
